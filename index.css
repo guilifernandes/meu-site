@@ -97,32 +97,62 @@ padding: 10px;
    left: 47%;
   }
 
-.containner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-  
-.containner figure.site {
-    width: 240px;
-    height: 240px;
 
-}
-.containner figure.banner img {
-    src: url(img\banner_eletronicos.png);
+
+  
+.banner {
     position: absolute;
     top: 15%;
-    left: 19%;
+    left: 21%;
 }
-.containner figure.product img{
+.meuproduto1 {
+text-align: center;
+  position: absolute;
+    top: 60%;
+    left: 11%;
+}
 
-    src: url(
-        src: url(img buscar\cadeira-gamer-superframe-hunter-reclinavel-suporta-ate-180kg-preto-e-branco_146583.jpg)
-    );
+.meuproduto2 {
     position: absolute;
+    top: 60%;
+    left: 42%;
 }
 
+.meuproduto3 {
+     position: absolute;
+     top: 60%;
+     left: 74%;
+}
+    .processador {
+        margin: 40px;
+        background-color: blue;
+        position: absolute;
+        top: 780px;
+        left: 1300px;    
+    }
 
+    .cadeira{
+        margin: 80px;
+        background-color: blue;
+        position: absolute;
+        top: 750px;
+        left: 600px;
+    
+    }
 
+.computador {
+    margin: 50px;
+    background-color: blue;
+    position: absolute;
+    top: 83%;
+    left: -1%;
+}
+.DESTAQUE {
+margin: 50px;
+        background-color: royalblue;
+        position: absolute;
+        top: 47%;
+        left: 36%;
+    
+}
 
