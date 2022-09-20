@@ -1,13 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script type="text/javascript">
+      function chamaURL(campo) {
+        document.location.href =
+          "http://www.teste.com.br" + campo.options[campo.selectedIndex].value;
+      }
+    </script>
   </head>
-  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
   <body>
-    <script src="./Index.js"></script>
+    <form name="form1">
+      <select name="select" onChange="chamaURL(this)">
+        <option selected>Faça sua escolha:</option>
+        <option value="/teste/pagina1.html">Pagina 1</option>
+        <option value="/teste/pagina2.html">Pagina 2</option>
+        <option value="/teste/pagina3.html">Pagina 3</option>
+        <option value="/teste/pagina4.html">Pagina 4</option>
+      </select>
+    </form>
   </body>
 </html>

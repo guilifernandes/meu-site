@@ -168,4 +168,16 @@ background: #eee;
 background-color: #191970;
 position: relative;
 left: auto;
-top: 50px;
+top: 50px;}
+
+.dark {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
