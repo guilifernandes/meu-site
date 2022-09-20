@@ -22,6 +22,6 @@ const init =() => {
         console.log(data)
      })
    })
-   }
+}
 
 window.onload = init;

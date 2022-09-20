@@ -70,23 +70,6 @@ padding: 10px;
 
 
 
-#divBusca{
-    background-color:#2F4F4F;
-    border:solid 1px;
-    border-radius:15px;
-    width:300px;
-  }
-  
-  #txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
-  }
 
  
  
@@ -170,14 +153,3 @@ position: relative;
 left: auto;
 top: 50px;}
 
-.dark {
-    padding: 25px;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-  }
-  
-  .dark-mode {
-    background-color: black;
-    color: white;
-  }
